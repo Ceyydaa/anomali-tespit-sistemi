@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Veri dosyaları (şirket gizliliği)
+*.xlsx
+*.csv
+*.xls
+
+# Ara çıktılar
+ara_ciktilar/
+*.parquet
+*.pkl
+
+# Grafikler (isteğe bağlı - kaldırabilirsin)
+grafikler/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
